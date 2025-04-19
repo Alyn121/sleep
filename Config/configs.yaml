@@ -1,0 +1,25 @@
+# Đường dẫn mô hình
+cnn_model_path: "./module/model/ngugat.onnx"
+yolo_model_path: "./module/model/yolov8n-pose.onnx"
+
+# Đường dẫn video
+video_path: "./Test/input_video/vlc-record.mp4"
+output_path: "./Test/output_video/output_video1.mp4"
+
+# Hiển thị
+display_scale: 0.5  # Tỷ lệ hiển thị video
+show_frame: true     # Có hiển thị cửa sổ video không
+
+# Lưu video
+save_output: true    # Có lưu video kết quả không
+
+# YOLO
+yolo_person_class_id: 0      # ID class "person" trong YOLO
+yolo_confidence_threshold: 0.4  # Ngưỡng tin cậy YOLO
+
+# CNN
+cnn_input_size: 640  # Kích thước resize ảnh cho mô hình CNN
+
+# Khác
+frame_skip: 1        # Bỏ qua bao nhiêu frame mỗi lần xử lý (1 = không bỏ)
+log_path: "./Log/drowsiness_log.txt"  # File ghi log kết quả
