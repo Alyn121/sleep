@@ -25,7 +25,7 @@
 4. download weights file(ngugat.onnx) from [[Model]](https://drive.google.com/drive/folders/1X95isoe6YUk2zwD9J2sumu6wbrVnktPh?usp=sharing) to this folder:
 
    ```
-   ./Model_path/
+   ./model/
    ```
 
 5. test on video:
