@@ -1,0 +1,5 @@
+opencv-python
+numpy
+onnxruntime
+ultralytics==8.1.37
+PyYAML
